@@ -1,0 +1,25 @@
+desktop:
+ctl alt t - gets terminal
+ctl alt num pad - shifts window
+crl w - closes current tab, else window
+
+terminal:
+cd - change directory
+mkdir - make directory
+pwd - directory list I am in
+ls - list information about files
+ll - detailed informations about files
+tab twice - helps auto fill
+python "file name" - run
+man space - thing I wanna do
+touch - "file name" creates new file.
+
+
+git:
+git status -
+git commit -
+git log -
+git add "file name" -
+
+sublime text:
+subl "file name" - runs that file using sublime text
