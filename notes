@@ -16,10 +16,11 @@ touch - "file name" creates new file.
 
 
 git:
+git add "file name" -
 git status -
 git commit -
-git log -
-git add "file name" -
+git log - list of commits
+
 
 sublime text:
 subl "file name" - runs that file using sublime text
