@@ -14,6 +14,7 @@ tab twice - auto fill
 python "file name" - run
 man space - thing i have a question about - manual about that thing
 touch - "file name" creates new file.
+cat "file name" - craps out the file to the terminal
 
 
 git:
@@ -24,7 +25,7 @@ git commit - prompts for multi line message then commits
 git status - shows files that havent been staged or committed
 git log - list of commits
 git push - pushes all committed files to github
-
+git stash - idk yet.
 
 sublime text:
 subl "file name" - runs that file using sublime text
