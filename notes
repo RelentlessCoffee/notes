@@ -3,26 +3,28 @@ ctl alt t - gets terminal
 ctl alt num pad - shifts window
 crl w - closes current tab, else window
 
+
 terminal:
 cd - change directory
 mkdir - make directory
 pwd - directory list I am in
-ls - list information about files
+ls - list of current directory
 ll - detailed informations about files
-tab twice - helps auto fill
+tab twice - auto fill
 python "file name" - run
-man space - thing I wanna do
+man space - thing i have a question about - manual about that thing
 touch - "file name" creates new file.
 
 
 git:
-git add "file name" - stages the file to be comitted
+git add "file name" - stages file to be comitted
 git commit "file name" - commits that file
-git commit -m - commits everything in staged with the same message
-git commit -
-git status - shows if files have been committed or
+git commit -m "message" - commits all staged files with that same message
+git commit - prompts for multi line message then commits
+git status - shows files that havent been staged or committed
 git log - list of commits
-git commit -m "this is my commit message" -
+git push - pushes all committed files to github
+
 
 sublime text:
 subl "file name" - runs that file using sublime text
