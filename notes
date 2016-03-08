@@ -16,12 +16,16 @@ touch - "file name" creates new file.
 
 
 git:
-git add "file name" -
-git status -
+git add "file name" - stages the file to be comitted
+git commit "file name" - commits that file
+git commit -m - commits everything in staged with the same message
 git commit -
+git status - shows if files have been committed or
 git log - list of commits
-
+git commit -m "this is my commit message" -
 
 sublime text:
 subl "file name" - runs that file using sublime text
+
+
 
