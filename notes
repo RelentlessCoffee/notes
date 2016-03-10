@@ -15,17 +15,32 @@ python "file name" - run
 man space - thing i have a question about - manual about that thing
 touch - "file name" creates new file.
 cat "file name" - craps out the file to the terminal
-
+less "file name" - opens the text file in a window'd termnial search with "/"
+sort "file name" - lists each line a-z
+ctl z - stops a script from running
 
 git:
 git add "file name" - stages file to be comitted
 git commit "file name" - commits that file
 git commit -m "message" - commits all staged files with that same message
+git commit -a - stages all changes in working directory
 git commit - prompts for multi line message then commits
 git status - shows files that havent been staged or committed
 git log - list of commits
 git push - pushes all committed files to github
 git stash - idk yet.
+
+grep:
+cat "file name" | grep "var" - will pull all "var" from file
+grep "var" "file name" - same as above faster
+grep -v - will search for pattern and show lines that don't match
+
+vim:
+ESC :q - to quit
+ESC :q! - quit and do not save
+ESC :w - write to file
+ESC :qw - write and quit
+
 
 sublime text:
 subl "file name" - runs that file using sublime text
