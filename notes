@@ -7,9 +7,9 @@ crl w - closes current tab, else window
 terminal:
 cd - change directory
 mkdir - make directory
-pwd - directory list I am in
+pwd - prints current working directory
 ls - list of current directory
-ll - detailed informations about files
+ll - detailed things about file such as paths
 tab twice - auto fill
 python "file name" - run
 man space - thing i have a question about - manual about that thing
@@ -18,6 +18,13 @@ cat "file name" - craps out the file to the terminal
 less "file name" - opens the text file in a window'd termnial search with "/"
 sort "file name" - lists each line a-z
 ctl z - stops a script from running
+curl -
+echo "text" >> "file name" - will append the text to the end of the file
+chmod 775 "script name" -
+rm "file name" - removes the file
+ln -s - makes symlink that is symbolic
+
+
 
 git:
 git add "file name" - stages file to be comitted
