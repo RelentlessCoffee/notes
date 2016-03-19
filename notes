@@ -1,3 +1,5 @@
+tsc
+
 desktop:
 ctl alt t - gets terminal
 ctl alt num pad - shifts window
@@ -11,8 +13,8 @@ pwd - prints current working directory
 ls - list of current directory
 ll - detailed things about file such as paths
 tab twice - auto fill
-python "file name" - run
-man space - thing i have a question about - manual about that thing
+python "file name" - runs file with python
+man "thing i want to know about" - manual about that thing
 touch - "file name" creates new file.
 cat "file name" - craps out the file to the terminal
 less "file name" - opens the text file in a window'd termnial search with "/"
@@ -20,10 +22,11 @@ sort "file name" - lists each line a-z
 ctl z - stops a script from running
 curl -
 echo "text" >> "file name" - will append the text to the end of the file
-chmod 775 "script name" -
+chmod 775 "script name" - gives read write and execute permission
+chmod 700 "script name" - private only i can read and execute
 rm "file name" - removes the file
 ln -s - makes symlink that is symbolic
-
+| - this is the pipe symbol
 
 
 git:
@@ -52,5 +55,9 @@ ESC :qw - write and quit
 sublime text:
 subl "file name" - runs that file using sublime text
 
+ipython:
+f = open("file name", "rb") - loads the file in? maybe?
+f.read() - lists the text in the file
+f.seek(0) - starts the ride over
 
 
